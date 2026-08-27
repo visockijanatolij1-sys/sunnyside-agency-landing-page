@@ -1,0 +1,28 @@
+// font-family: "Fraunces", serif;
+// font-family: "Barlow", sans-serif;
+
+@use "variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0px;
+    background-color: variables.$white;
+    color: variables.$grey550;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
