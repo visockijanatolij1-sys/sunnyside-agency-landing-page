@@ -16,7 +16,7 @@
                 <div class="header-logo">
                     <img src="./images/logo.svg" alt="Logo">
                 </div>
-                <nav class="menu">
+                <nav class="menu" id="main-menu" inert>
                     <ul class="menu-list">
                         <li class="menu-link">
                             <a href="#" class="menu-item">About</a>
@@ -32,9 +32,15 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="burger-icon">
+                <button
+                    class="burger-icon"
+                    type="button"
+                    aria-label="Open menu"
+                    aria-expanded="false"
+                    aria-controls="main-menu"
+                >
                     <span></span>
-                </div>
+                </button>
             </header>
             <h1 class="hero-title">We are creatives</h1>
             <div class="hero-arrow">
@@ -132,6 +138,42 @@
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-block">
+                    <div class="footer-content">
+                        <h3 class="footer-logo">sunnyside</h3>
+                        <nav class="footer-menu">
+                            <ul class="footer-menu_list">
+                                <li class="footer-menu_item">
+                                    <a href="#" class="footer-menu_link">About</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="#" class="footer-menu_link">Services</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="#" class="footer-menu_link">Projects</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-socials">
+                        <div class="footer-socials_image">
+                            <img src="./images/icon-facebook.svg" alt="Facebook">
+                        </div>
+                        <div class="footer-socials_image">
+                            <img src="./images/icon-instagram.svg" alt="Instagram">
+                        </div>
+                        <div class="footer-socials_image">
+                            <img src="./images/icon-twitter.svg" alt="Twitter">
+                        </div>
+                        <div class="footer-socials_image">
+                            <img src="./images/icon-pinterest.svg" alt="Pinteest">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="./js/script.js"></script>

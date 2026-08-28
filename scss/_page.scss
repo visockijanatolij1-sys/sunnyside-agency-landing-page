@@ -535,7 +535,6 @@
 }
 .gallery-image{
     flex: 0 1 25%;
-    min-height: 447px;
 }
 .gallery-image img{
     width: 100%;
@@ -549,6 +548,65 @@
     }
     .gallery-image{
         flex: 0 1 50%;
-        min-height: 189px;
     }
+}
+
+// =======================================
+
+.footer{
+   background-color: variables.$green300; 
+}
+.footer-block{
+    max-width: 298px;
+    min-height: 203px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.footer-logo{
+    color: variables.$green600;
+    font-weight: 900;
+    font-size: 24px;
+}
+.footer-menu_list{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+.footer-menu_link{
+    cursor: pointer;
+    color: variables.$green500;
+}
+.footer-menu_link:hover{
+    text-decoration: underline;
+}
+.footer-socials{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer-socials_image{
+   width: 20px;
+   height: 20px; 
+}
+.footer-socials_image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.header a:focus-visible,
+.burger-icon:focus-visible {
+    outline-color: #fff;
 }

@@ -4,9 +4,13 @@ const heroTitle = document.querySelector(".hero-title");
 const heroArrow = document.querySelector(".hero-arrow");
 
 button.addEventListener("click", () => {
-    menu.classList.toggle("open-menu");
-    button.classList.toggle("active");
+    const isOpen = menu.classList.toggle('open-menu');
+
+    button.classList.toggle('active');
+    button.setAttribute('aria-expanded', isOpen);
 
     heroTitle.classList.toggle("none");
     heroArrow.classList.toggle("none");
+
+    menu.inert = !isOpen;
 });
