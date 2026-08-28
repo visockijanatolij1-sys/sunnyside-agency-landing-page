@@ -520,3 +520,35 @@
         flex-direction: column;
     }
 }
+@media (max-width: 424.98px) {
+    .testimonials{
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+}
+
+// ==============================
+
+.gallery{
+    display: flex;
+    align-items: center;
+}
+.gallery-image{
+    flex: 0 1 25%;
+    min-height: 447px;
+}
+.gallery-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+@media (max-width:767.98px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery-image{
+        flex: 0 1 50%;
+        min-height: 189px;
+    }
+}
