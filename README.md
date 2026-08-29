@@ -15,11 +15,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./sunnyside-agency.png)
+![Screenshot of the Sunnyside agency landing page](./sunnyside-agency.png)
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef)]
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef)
 - Live Site URL: [https://visockijanatolij1-sys.github.io/sunnyside-agency-landing-page/]
 
 ## My process
