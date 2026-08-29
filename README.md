@@ -45,6 +45,12 @@ JavaScript only controls whether the menu is open or closed.
 I also practiced making an off-screen/hidden navigation accessible using
 `aria-expanded`, `aria-controls`, `inert`, and visible keyboard focus states.
 
+One challenge I faced was implementing the mobile navigation menu. At first,
+I struggled to keep the layout, visual state, and JavaScript behavior separate.
+I solved this by letting CSS handle how the menu is displayed and using
+JavaScript only to toggle its open state. This made the component simpler and
+easier to reason about.
+
 ### Continued development
 
 I want to continue improving responsive layouts, accessibility, and reusable
